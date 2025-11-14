@@ -1,0 +1,23 @@
+#' Veterans dataset
+#' Lung cancer trial data from the Veterans Administration.
+#'
+#' This dataset is also present, albeit in a slightly different format, in the
+#' survival package as `veteran`
+#'
+#' @format A data.frame with 137 rows and the following variables:
+#' \describe{
+#' \item{trt}{Treatment. 1 = standard, 2 = test}
+#' \item{large}{Indicator for 'large cell' pathology}
+#' \item{adeno}{Indicator for 'adenocarcinoma cell' pathology}
+#' \item{small}{Indicator for 'small cell' pathology}
+#' \item{squamous}{Indicator for 'squamous cell' pathology}
+#' \item{time}{Indicator for 'squamous cell' pathology}
+#' \item{performance}{Karnofsky performance score. 0 = worst, 100 = best}
+#' \item{disease_duration}{Disease duration in months}
+#' \item{age}{Age of patient in years}
+#' \item{prior}{Received prior therapy, 0 = none, 1 = some}
+#' \item{status}{0 = censored, 1 = died}
+#' }
+#' @source Kleinbaum, D.G. and Klein, M. (2012) Survival Analysis - A
+#'     Self-Learning Text, 3rd ed., Springer
+"vets"

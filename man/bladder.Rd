@@ -4,18 +4,19 @@
 \name{bladder}
 \alias{bladder}
 \title{Bladder dataset}
-\format{A data.frame with 191 rows and the following variables:
+\format{
+A data.frame with 191 rows and the following variables:
 \describe{
-\item{id}{}
-\item{event}{}
-\item{interval}{}
-\item{inttime}{}
-\item{start}{}
-\item{stop}{}
-\item{tx}{}
-\item{num}{}
-\item{size}{}
-}}
+\item{id}{Patient ID}
+\item{event}{Patient had tumor (1) or not (0)}
+\item{interval}{Which time interval it is for a given patient, where 1 is the first interval, 2 is the second, etc}
+\item{start}{Starting time (in months) for the interval}
+\item{stop}{Time of event or censorship for each interval}
+\item{tx}{Treatment status (1 = thiotepa, 0 = placebo)}
+\item{num}{Initial number of tumors}
+\item{size}{Initial size (cm) of tumor}
+}
+}
 \source{
 Kleinbaum, D.G. and Klein, M. (2012) Survival Analysis - A
     Self-Learning Text, 3rd ed., Springer
@@ -24,11 +25,7 @@ Kleinbaum, D.G. and Klein, M. (2012) Survival Analysis - A
 bladder
 }
 \description{
-Bladder dataset.
-}
-\examples{
-head(bladder, n = 10)
-summary(bladder)
+Interval data for bladder cancer patients after TURBT, with patients who
+received placebo or thiotepa.
 }
 \keyword{datasets}
-

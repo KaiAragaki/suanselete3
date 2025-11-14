@@ -1,7 +1,7 @@
 Package: suanselete3
 Title: Dataset from Kleinbaum and Klein "Survival analysis - A self learning
     text" (3rd Ed., 2012)
-Version: 0.1
+Version: 1.0
 Authors@R: c(
     person("Luca", "Braglia", email = "lbraglia@gmail.com", role = c("aut", "cre")),
     person("Kai", "Aragaki", email = "kaiaragaki@proton.me", role = "aut")

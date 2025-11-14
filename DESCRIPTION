@@ -5,7 +5,7 @@ Version: 0.1
 Authors@R: c(
     person("Luca", "Braglia", email = "lbraglia@gmail.com", role = c("aut", "cre")),
     person("Kai", "Aragaki", email = "kaiaragaki@proton.me", role = "aut")
-)
+  )
 Description: An unofficial companion to the textbook "Survival Analysis - A
     Self-Learning Text" by D.G. Kleinbaum and M. Klein
     (3rd Ed., 2012) including all the accompanying
